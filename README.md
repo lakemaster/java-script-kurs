@@ -1,1 +1,1 @@
-"# java-script-kurs" 
+"# javascript-kurs" 
