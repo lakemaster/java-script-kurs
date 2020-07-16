@@ -12,6 +12,7 @@ jQuery(document).ready(function($) {
     console.log(p);
 
     $("p").click(function(event) {
+        event.preventDefault(); // if element is a link, dont follow, makes no sence in this case
         console.log(event);
         $(this).css("color", "orange");
     });
